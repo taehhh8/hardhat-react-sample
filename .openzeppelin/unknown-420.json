@@ -1,0 +1,138 @@
+{
+  "manifestVersion": "3.2",
+  "admin": {
+    "address": "0xb6377DBb6F2e7d065c4edFde9ef87dc91cD1C096",
+    "txHash": "0x02330b7034e106cadcb6d8d3ba3388f203bc4aeb10800e84277af48e1986c72b"
+  },
+  "proxies": [
+    {
+      "address": "0x2699219656F0bE2128C0A4c0F562E0A8C4021448",
+      "txHash": "0xc50b6566150ffd1b72648feb7d6128b0603959a4a71fff7e770d968e5aa2266f",
+      "kind": "transparent"
+    }
+  ],
+  "impls": {
+    "f5691c2480cc9a261eb2e371fa72539a9949d83b0e834eb246d9c8c0a91e649c": {
+      "address": "0x612aCED90a2169527049f041D88A06b32d673D95",
+      "txHash": "0x49c9930be35d5b8470c06a7be8202645dbecbe07791fcef4748baa53735f834a",
+      "layout": {
+        "storage": [
+          {
+            "label": "_owner",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_address",
+            "contract": "setData",
+            "src": "contracts/setdata.sol:9"
+          },
+          {
+            "label": "initialized",
+            "offset": 20,
+            "slot": "0",
+            "type": "t_bool",
+            "contract": "setData",
+            "src": "contracts/setdata.sol:10"
+          },
+          {
+            "label": "tokenOwner",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_mapping(t_uint256,t_address)",
+            "contract": "setData",
+            "src": "contracts/setdata.sol:19"
+          },
+          {
+            "label": "totalOwnedTokens",
+            "offset": 0,
+            "slot": "2",
+            "type": "t_mapping(t_address,t_array(t_uint256)dyn_storage)",
+            "contract": "setData",
+            "src": "contracts/setdata.sol:21"
+          },
+          {
+            "label": "totalJolamanData",
+            "offset": 0,
+            "slot": "3",
+            "type": "t_array(t_uint256)dyn_storage",
+            "contract": "setData",
+            "src": "contracts/setdata.sol:27"
+          },
+          {
+            "label": "jolamanTokenTypeOfOwner",
+            "offset": 0,
+            "slot": "4",
+            "type": "t_mapping(t_uint256,t_address)",
+            "contract": "setData",
+            "src": "contracts/setdata.sol:29"
+          },
+          {
+            "label": "typeToId",
+            "offset": 0,
+            "slot": "5",
+            "type": "t_mapping(t_uint256,t_uint256)",
+            "contract": "setData",
+            "src": "contracts/setdata.sol:35"
+          },
+          {
+            "label": "SellingJol",
+            "offset": 0,
+            "slot": "6",
+            "type": "t_mapping(t_uint256,t_bool)",
+            "contract": "setData",
+            "src": "contracts/setdata.sol:42"
+          },
+          {
+            "label": "StakedJolamanType",
+            "offset": 0,
+            "slot": "7",
+            "type": "t_mapping(t_uint256,t_bool)",
+            "contract": "setData",
+            "src": "contracts/setdata.sol:46"
+          },
+          {
+            "label": "exceptSellOwnedJolamanType",
+            "offset": 0,
+            "slot": "8",
+            "type": "t_mapping(t_address,t_array(t_uint256)dyn_storage)",
+            "contract": "setData",
+            "src": "contracts/setdata.sol:52"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address",
+            "numberOfBytes": "20"
+          },
+          "t_array(t_uint256)dyn_storage": {
+            "label": "uint256[]",
+            "numberOfBytes": "32"
+          },
+          "t_bool": {
+            "label": "bool",
+            "numberOfBytes": "1"
+          },
+          "t_mapping(t_address,t_array(t_uint256)dyn_storage)": {
+            "label": "mapping(address => uint256[])",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_uint256,t_address)": {
+            "label": "mapping(uint256 => address)",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_uint256,t_bool)": {
+            "label": "mapping(uint256 => bool)",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_uint256,t_uint256)": {
+            "label": "mapping(uint256 => uint256)",
+            "numberOfBytes": "32"
+          },
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          }
+        }
+      }
+    }
+  }
+}
