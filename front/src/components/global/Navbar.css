@@ -1,0 +1,26 @@
+.Navbar {
+    position: fixed;
+    /* background-color: #021E39; */
+    width: 100vw;
+    height: 100px;
+    display: flex;
+    z-index: 20;
+    border-bottom: 2px solid #141414;
+
+}
+
+/* .Navbar .leftSide {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex: 50%;
+    background-color: blueviolet;
+}
+
+.Navbar .rightSide {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex: 50%;
+    background-color: blue;
+} */
