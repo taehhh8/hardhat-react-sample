@@ -58,7 +58,7 @@ const LeftMintingSection = () => {
           </div>
           <div className="leftMintigSectionDetail5">
             <button className="learn-more" onClick={handleMint}>
-              Minting
+              Mintingdfsfdfsdfdsdfsds
             </button>
             {/* <button onClick={minting} className="learn-more" >Minting</button> */}
           </div>
